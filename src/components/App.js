@@ -1,13 +1,13 @@
 import React from "react";
-import Header from "./Header";
-import TicketControl from "./TicketControl";
+import LetterControl from './LetterControl';
+import './App.css';
 
-function App(){
-  return ( 
-    <React.Fragment>
-      <Header />
-      <TicketControl />
-    </React.Fragment>
+function App() {
+  return (
+    <div className="App">
+      <h1>The Hangman Game</h1>
+      <LetterControl />
+    </div>
   );
 }
 
